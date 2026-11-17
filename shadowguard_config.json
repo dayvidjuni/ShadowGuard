@@ -1,0 +1,21 @@
+{
+    "modo": "alerta",
+    "estrategia_mascara": "asteriscos",
+    "intervalo_sondeo": 0.5,
+    "max_tamano_texto": 500000,
+    "notificaciones_activadas": true,
+    "entropia_activada": true,
+    "umbral_base64": 4.5,
+    "umbral_hex": 3.0,
+    "ignorar_uuids": true,
+    "ignorar_git_commits": true,
+    "validar_luhn_tarjetas": true,
+    "lista_blanca": [
+        "00000000-0000-0000-0000-000000000000",
+        "127.0.0.1",
+        "localhost",
+        "test-token-safe-1234567890"
+    ],
+    "host_dashboard": "127.0.0.1",
+    "puerto_dashboard": 8000
+}

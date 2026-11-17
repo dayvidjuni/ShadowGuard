@@ -1,0 +1,13 @@
+# Dependencias principales de ShadowGuard
+fastapi>=0.100.0
+uvicorn>=0.20.0
+pydantic>=2.0.0
+
+# Portapapeles (en Windows se usa ctypes nativo, pero recomendado para compatibilidad cruzada)
+pyperclip>=1.8.2
+
+# Testing y desarrollo
+pytest>=7.0.0
+
+# Opcional (inspección de tráfico de red a nivel de proxy):
+# mitmproxy>=9.0.0
